@@ -16,12 +16,12 @@ describe('App', () => {
         // expect(queryByText('Click Me')).not.toBeNull();
     });
 
-    it('response text is an empty string on start', () => {
+    it(' renders an empty response text string on start', () => {
         // const { getByTestId } = render(<App />);
         // expect(getByTestId('response-text')).toHaveTextContent(''); ``
     });
 
-    it('get response is called once and return never ever', () => {
+    it('calls a get response once and returns "Never Ever"', () => {
         // response.getResponse = jest.fn().mockImplementationOnce(() => "Never Ever");
         // const { getByTestId, getByText } = render(<App />);
         // const responseButton = getByTestId('response-button')
